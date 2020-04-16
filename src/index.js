@@ -1,3 +1,4 @@
+
 const greet = (name) =>{
     console.log(`Hello ${name}`)
     
@@ -13,3 +14,18 @@ btn.addEventListener('click',()=>{
     
     greet('rajan 2')
 })
+
+
+
+var arr=[1,2,3,4,5]
+console.log(arr);
+ arr.push(6)
+ console.log(arr);
+  arr.unshift(1)
+  console.log(arr);
+   arr.pop()
+   console.log(arr);
+    arr.shift()
+
+    console.log(arr);
+    
